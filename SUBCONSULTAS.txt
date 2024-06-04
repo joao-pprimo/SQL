@@ -1,0 +1,13 @@
+	*SUBCONSULTAS*
+- "Uma consulta sobre o resultado de outra consulta."
+
+- Aninhadas:
+*A consulta mais externa realizará algum tipo de teste junto aos dados originados da consulta mais interna.
+*Ocorre quando é necessário obter dados que dependem do resultado de uma - ou mais - consulta(s) mais interna(s). 
+*Criar condição na cláusula WHERE de forma a envolver o resultado da subconsulta em algum tipo de teste. 
+
+- Correlatas:
+A subconsulta utiliza valores da consulta externa e é executada para cada linha da consulta externa. 
+*Ocorre quando é necessário obter dados que dependem do de resultado de uma ou mais consultas mais internas.
+*Condição com a cláusua WHERE de forma e envolver o resultado da subconsulta em algum tipo de teste.
+*Podemos utilizar o operador EXISTS em uma consulta correlacionada. Tal operador testa a existência de linha(s) retornada(s) por alguma subconsulta

@@ -1,0 +1,25 @@
+	*OPERADORES DE CONJUNTO*
+
+- Operadores de Conjunto:
+UNION, INTERSECT e EXCEPT
+
+- Union:
+*Serve para consolidade linhas resultantes de consultas. 
+*Todas as consultas envolvidas devem possuir a mesma quantidade de colunas e deve haver compatibilidade de tipo de dados. 
+*Linhas repetidas são eliminadas do resultado, uma vez que o resultado é uma tabela que não permite duplicata de linhas. 
+*Sintaxe Geral:
+		CONSULTASQL UNION [ALL|DISTINCT] CONSULTASQL
+
+- INTERSECT:
+*Serve para exibir linhas que aparecem em ambos os resultados das consultas envolvidas.
+*Todas as consultas devem possuir a mesma quantidade de colunas e deve haver compatibilidade de tipo de dados.
+- Sintaxe Geral: 
+		CONSULTASQL INTERSECT [ALL|DISTINCT] CONSULTASQL
+
+- EXCEPT:
+*Implementa a operação de subtração da Teoria dos Conjuntos e serve para exibir linhas que aparecem em uma consulta e não aparecem na outra.
+*Sintaxe Geral:
+		CONSULTASQL EXCEPT [ALL|DISTINCT] CONSULTASQL
+
+
+	

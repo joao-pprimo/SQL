@@ -1,0 +1,7 @@
+	*Junção interna*
+
+- Sintaxe básica
+
+SELECT *
+FROM TABELA1 [INNER] JOIN TABELA2 ON (CONDIÇÃOJUNÇÃO) [USING (COLUNA_DE_JUNÇÃO)]
+
